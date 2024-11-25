@@ -70,15 +70,15 @@ Citation
 
 If you use PyTorch3D in your work, please cite it as follows:
 
-@inproceedings{ravi2020pytorch3d,
-  title={PyTorch3D},
-  author={Nikhila Ravi and Jeremy Reizenstein and David Novotny and Taylor Gordon and Wan-Yen Lo and Justin Johnson and Georgia Gkioxari},
-  booktitle={Conference on Computer Vision and Pattern Recognition},
-  year={2020}
+```bash
+@article{lassner2020pulsar,
+    author = {Christoph Lassner and Michael Zollh\"ofer},
+    title = {Pulsar: Efficient Sphere-based Neural Rendering},
+    journal = {arXiv:2004.07484},
+    year = {2020},
 }
-
+```
 Paper Reference:
-
     Ravi, N., Reizenstein, J., Novotny, D., Gordon, T., Lo, W., Johnson, J., & Gkioxari, G. (2020). PyTorch3D. Conference on Computer Vision and Pattern Recognition (CVPR).
 
 For more information, visit the PyTorch3D GitHub Repository.
