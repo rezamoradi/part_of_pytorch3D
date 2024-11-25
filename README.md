@@ -66,11 +66,25 @@ rm -rf mytorch3d/*.so
 - PyTorch
 - Chamfer Distance package
 
+Citation
+
+If you use PyTorch3D in your work, please cite it as follows:
+
+@inproceedings{ravi2020pytorch3d,
+  title={PyTorch3D},
+  author={Nikhila Ravi and Jeremy Reizenstein and David Novotny and Taylor Gordon and Wan-Yen Lo and Justin Johnson and Georgia Gkioxari},
+  booktitle={Conference on Computer Vision and Pattern Recognition},
+  year={2020}
+}
+
+Paper Reference:
+
+    Ravi, N., Reizenstein, J., Novotny, D., Gordon, T., Lo, W., Johnson, J., & Gkioxari, G. (2020). PyTorch3D. Conference on Computer Vision and Pattern Recognition (CVPR).
+
+For more information, visit the PyTorch3D GitHub Repository.
+
 ## Contributing
 Contributions are welcome! Please submit pull requests or open issues for any improvements or bug fixes.
 
-## License
-[Add your license information here]
-
 ## Contact
-[Add contact information or project maintainer details]
+[moradi2reza89@gmail.com]
