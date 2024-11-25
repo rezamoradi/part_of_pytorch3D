@@ -87,4 +87,4 @@ For more information, visit the PyTorch3D GitHub Repository.
 Contributions are welcome! Please submit pull requests or open issues for any improvements or bug fixes.
 
 ## Contact
-[moradi2reza89@gmail.com]
+moradi2reza89@gmail.com
