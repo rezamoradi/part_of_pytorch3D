@@ -23,6 +23,13 @@ The installation script performs several key actions:
 - Installs custom extensions
 - Adds Chamfer Distance package
 
+## Cleanup (Optional)
+To clean previous builds:
+```bash
+rm -rf build dist *.egg-info
+rm -rf mytorch3d/*.so
+```
+
 ### 3. Installation Code
 ```python
 import os
@@ -48,13 +55,6 @@ if torch_lib_path not in sys.path:
 
 # Install Chamfer Distance
 !pip install git+https://github.com/otaheri/chamfer_distance@f86f6f7cadd3aca642704573d1626c67ca2e2846
-```
-
-## Cleanup (Optional)
-To clean previous builds:
-```bash
-rm -rf build dist *.egg-info
-rm -rf mytorch3d/*.so
 ```
 
 ## Common Issues
