@@ -12,7 +12,7 @@ This setup script provides a streamlined method to install PyTorch3D and related
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/rezamoradi/part_of_pytorch3D.git
+!git clone https://github.com/rezamoradi/part_of_pytorch3D.git
 ```
 
 ### 2. Setup Script
