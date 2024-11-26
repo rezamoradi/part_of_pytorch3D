@@ -12,8 +12,7 @@ This setup script provides a streamlined method to install PyTorch3D and related
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-repo/PD-LTS.git
-cd PD-LTS/ex
+git clone https://github.com/rezamoradi/part_of_pytorch3D.git
 ```
 
 ### 2. Setup Script
@@ -32,6 +31,12 @@ rm -rf mytorch3d/*.so
 
 ### 3. Installation Code
 ```python
+
+# Optional: Development mode installation
+%cd /content/ex
+!python setup_p.py develop
+# python setup.py install
+
 import os
 import sys
 import torch
@@ -48,10 +53,6 @@ else:
 # Add torch library path to system path
 if torch_lib_path not in sys.path:
     sys.path.append(torch_lib_path)
-
-# Optional: Development mode installation
-# python setup_p.py develop
-# python setup.py install
 
 # Install Chamfer Distance
 !pip install git+https://github.com/otaheri/chamfer_distance@f86f6f7cadd3aca642704573d1626c67ca2e2846
